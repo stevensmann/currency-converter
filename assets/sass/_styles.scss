@@ -1,22 +1,16 @@
 
-#pbpContent {
+body {
+	background-color: $light;
+}
 
-	.pbp_block {
+.header {
 
-		&__title {
-			color: 'ccc'
-		}
+	width: 100%;
+	background-color: $deep;
+	color: $light;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
 
-		&__copy {
 
-		}
 
-		&__img {
-
-		}
-
-		&__btn {
-
-		}
-	}
 }

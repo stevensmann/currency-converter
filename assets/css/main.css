@@ -1,5 +1,14 @@
-#pbpContent .pbp_block__title {
-  color: "ccc";
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+body {
+  background-color: #C4DFE6;
+}
+
+.header {
+  width: 100%;
+  background-color: #003B46;
+  color: #C4DFE6;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
 }
 
 /*# sourceMappingURL=main.css.map */

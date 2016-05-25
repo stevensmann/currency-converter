@@ -11,7 +11,7 @@
 
 	<body>
 
-		<header>
+		<header class="header">
 			<h1>Currency Converter</h1>
 		</header>
 
