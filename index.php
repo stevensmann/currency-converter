@@ -13,24 +13,39 @@
 
 		<header class="header">
 			<h1>Currency Converter</h1>
+			<h2>Using the Fixer.io API for up-to-date currency conversion rates</h2>
 		</header>
 
 
-		<form>
+		<form class="conversionForm">
 
-			<select class="convertFrom">
-			</select>
+			<section class="conversionForm__amount">
+				<label>Amount:</label>
+				<input type="number" class="currencyValue">
+			</section>
+
+			<section class="conversionForm__currencies">
+
+				<div class="conversionForm__from">
+					<label>From:</label>
+					<select class="convertFrom">
+					</select>
+				</div>
+
+				<div class="conversionForm__to">
+					<label>To:</label>
+					<select class="convertTo">
+					</select>
+				</div>
+			</section>
 
 
-			<input type="number" class="currencyValue">
-
-			<select class="convertTo">
-			</select>
-
-			<input type="submit" value="convert">
+			<input type="submit" value="convert" class="currencySubmit">
 		</form>
 
 		<p class="output"></p>
+
+		<h3>Rates are updated daily at 3pm BST</h3>
 
 	</body>
 

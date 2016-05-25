@@ -1,16 +1,101 @@
 
-body {
-	background-color: $light;
-}
+
 
 .header {
-
 	width: 100%;
-	background-color: $deep;
-	color: $light;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 300;
+	text-align: center;
+	color: $charcoal;
+	margin: 20px 0;
+
+	h1, h2, h3 {
+		margin: 5px 0;
+	}
+
+	h1 {
+		font: 500 3em/1.8em 'Roboto', sans-serif;
+	}
+
+	h2 {
+		font: 300 1.8em/1em 'Roboto', sans-serif;
+	}
+
+}
+
+h3 {
+	font: 300 1.4em/1em 'Roboto', sans-serif;
+	text-align: center;
+	width: 100%;
+}
+
+.conversionForm {
+	margin: auto;
+	width: 100%;
+	max-width: 200px;
+	overflow: hidden;
+	font: 300 1.2em/1em 'Roboto', sans-serif;
+
+	label {
+		font-weight: 500;
+	}
+
+	&__amount {
+		width: 80%;
+		margin: auto;
+
+		label {
+			text-align: center;
+			display: block;
+		}
+
+		input {
+			margin: 5px auto;
+			display: block;
+		}
+
+	}
+
+	&__currencies {
+		width: 100%;
+		float: left;
+		clear: left;
+		margin: 10px 0;
+
+		div {
+			width: 50%;
+			float: left;
+
+			label {
+				text-align: center;
+				display: block;
+			}
+
+			select {
+				width: 75px;
+				display: block;
+				margin: 5px auto;
+				border: none;
+			}
+		}
+	}
+
+	.currencySubmit {
+		display: block;
+		margin: 5px auto;
+		appearance: none;
+		background-color: $black;
+		color: $white;
+		border: none;
+		font: 300 1em/1em 'Roboto', sans-serif;
+		padding: 10px 15px 8px 15px;
+		text-transform: uppercase;
+		cursor: pointer;
+	}
 
 
 
+}
+
+.output {
+	font: 400 1.8em/1em 'Roboto', sans-serif;
+	text-align: center;
 }
