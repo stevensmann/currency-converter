@@ -442,6 +442,10 @@ h3 {
 .conversionForm label {
   font-weight: 500;
 }
+.conversionForm select,
+.conversionForm input {
+  outline: none;
+}
 .conversionForm__amount {
   width: 80%;
   margin: auto;
