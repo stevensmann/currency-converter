@@ -484,15 +484,24 @@ h3 {
   appearance: none;
   background-color: #000;
   color: #fff;
-  border: none;
+  border: 1px solid #000;
   font: 300 1em/1em 'Roboto', sans-serif;
   padding: 10px 15px 8px 15px;
   text-transform: uppercase;
   cursor: pointer;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
+}
+.conversionForm .currencySubmit:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #C7C7C7;
+  font-weight: 500;
 }
 
 .output {
-  font: 400 1.8em/1em 'Roboto', sans-serif;
+  font: 500 2em/1em 'Roboto', sans-serif;
   text-align: center;
 }
 
