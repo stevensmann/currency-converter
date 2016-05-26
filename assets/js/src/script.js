@@ -35,7 +35,7 @@ $(function(){
 			if(calculation === 0) {
 				$('.output').html('Please enter a valid amount.');
 			} else {
-				$('.output').html(parseFloat(calculation).toFixed(2));
+				$('.output').html(parseFloat(calculation).toFixed(3));
 			}
 		});
 
